@@ -1,0 +1,29 @@
+import time
+import board
+import busio
+import adafruit_adxl34x
+
+i2c = busio.I2C(board.SCL, board.SDA)
+accelerometer = adafruit_adxl34x.ADXL345(i2c)
+accelerometer.enable_motion_detection(threshold=18)
+pastX = 0
+pastY = 0
+pastZ = 0
+
+
+while True:
+    x = accelerometer.acceleration[0]
+    y = accelerometer.acceleration[1]
+    z = accelerometer.acceleration[2]
+
+    speed = (((x-pastX)**2)+((y-pastY)**2))/0.5
+
+
+
+    print(x, y, z)
+    print(speed + "per 0.5 seconds")
+
+    pastX = x
+    pastY = y
+    pastZ = z
+    time.sleep(0.5)
