@@ -1,5 +1,6 @@
 **Awarded: 3rd place Category Award for Software Engineering (from 100’s of entries)
 **
+
 **Context:
 **Driven by the alarming statistic that nine teens die every day in car crashes, with distracted driving being a leading cause, I developed an affordable AI-powered safety device to protect young drivers when expensive commercial solutions remain out of reach for most families. I have attached the research abstract for this project submitted to the Synopsys Science & Engineering Championship in 2023. The Synopsys Championship is one of the premier regional science and engineering fairs in the United States, run by the Santa Clara Valley & Engineering Fair Association. Each year, students present original research projects across 21 scientific disciplines, undergoing rigorous evaluation by PhD-level scientists, engineers, and industry professionals.
 
